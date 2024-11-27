@@ -1,0 +1,36 @@
+<h1 style="color:red;font-size:small";<b><u>Annual Poetry Contest</u></b></h1<br>(the word Annual Poetry comes in red color and in small size)
+
+
+<style>
+        
+        h1{color: black;}
+        </style>
+       
+    
+</head>
+<body>
+    <h1 style="color:red;";<b><u>Annual Poetry Contest</u></b></h1><br>
+    <h1>Annual </h1>    (the result will be showing Annual Poetry Contest in red in bold and underlined and in next line we get Annual in black color as we gave black)
+
+<style>
+        
+        h1{color: black;}
+        </style>
+        <link rel="stylesheet" href="1.css">  [create a new file 1.css and type h1{color: green;} in 1.css file and save it]
+    
+</head>
+<body>
+    <h1 style="color:red;";<b><u>Annual Poetry Contest</u></b></h1><br>
+    <h1>Annual </h1>   (now the result is Annual Poetry Contest in red in bold and underlined and in next line we get Annual in green color)
+
+
+
+for text align decoration see the file [text decoration and many.html] file(see the results to understand better)
+
+
+NEW TOPIC SELECTORS;
+So use #A or #something to define a h1 or something only for single use because in big projects we can get error so to avoid errors  for id and use class=a or class=some variable for repeated lines
+[id for single time and class is for repeating lines]{for id we use #that variable and for class we use .that variable and its same for remaining}(refer selectors.html file )
+
+
+in a:link if you keep a color for link it will be in that color for example now red is used and if you use a:hover and choose green color and open the tab after saving it now the link shows in red color but if you keep your trackpoint on link it will be in green color)

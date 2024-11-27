@@ -1,0 +1,38 @@
+<p></p> for paragraph
+<h></h> for heading(working until h6)(size decreases for every heading from 1 to 6){after h7 size doesn't change}
+<!-- hjdkjcjk --> to hide it from the browser
+<article></article>  for article
+<br> to break the sentence and continue from next line 
+<hr> to create a big line under the sentence
+<b></b> to bold the sentence
+<i></i> to slant the sentence
+<u></u> to underline the sentence
+<sup></sup> to write the element in roof of something{like power of something}
+<sub></sub> to write the element in foot of something{like base of something}
+<strike></strike> to strike the sentence in a line
+<tt></tt> to show the sentence in tele typing type
+<big></big> to show the sentence in big text
+<small></small> to show to sentence in small text
+<cite></cite> to show a name or something specially
+<dfn></dfn> used to write definition of something
+<kbd></kbd> used to indicate the text that represents the user through keyboard{it looks smaller in size than usual ones}
+<code></code> to tell the user a code is written here{it will be written normally}
+<samp></samp> to show the user the output is taken from something
+<var></var> to show its a variable{it will be in italic form}
+<abbr title="computer science">comp</abbr> to show the abbreviation(the result will be comp but if you keep your trackpoint on comp it shows computer science)
+<acronym title="computer science">CS</acronym> to show the acronym(the result will be CS but if you keep yout trackpoint on CS it shows computer science)
+<q></q> to show something in quotation
+<blockquote></blockquote> to show something special(like in between of two empty spaces)
+<ins></ins> for insertion(underlining it)
+<del></del> for deletion (striking it )
+<mark></mark> for highlighting something in yellow color[only yellow color]
+<bdo dir="rtl">Arun</bdo> to show something from right to left(rtl){the result is "nurA"}
+<bdo dir="ltr">Arun</bdo> to show something from left to right(ltr){the result is "Arun"}
+<strong></strong>(to show something big and bold)
+<em></em>(the result will be in italic and thinner way)
+<marquee></marquee>is used for moving the texts continuously from right to left
+<span style=""></span> is used to style a particular word in a sentence
+
+
+
+

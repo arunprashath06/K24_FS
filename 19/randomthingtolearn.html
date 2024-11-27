@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 4cm auto 4cm ;
+            grid-template-rows: 1.5cm 10cm 1.5cm ;
+            gap: 10px 10px;
+            
+            
+        }
+        .d1{
+            background-color: brown;
+            text-align: center;
+            grid-column: 1/4;
+            align-content: center;
+        }
+        .d5{
+            grid-column: 1/4;
+            background-color: yellow;
+            text-align: center;
+            align-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Header</div>
+        <div class="d2">Sidebar</div>
+        <div class="d3">Main content</div>
+        <div class="d4">Navigation</div>
+        <div class="d5">Footer</div>
+    </div>
+    
+</body>
+</html>

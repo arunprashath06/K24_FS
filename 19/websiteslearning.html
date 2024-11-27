@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input#i1{
+            width: 15%;
+            background-color: aqua;}
+
+        
+    </style>
+</head>
+<body>
+    <form action="#" autocomplete="on" method="post">
+        <fieldset>
+            <legend>My Profile</legend>
+        <label for="i1">Name:</label>
+       <input type="text"  required placeholder="enter your name" id="i1" name="n1" ><br>
+       <label for="i2">Gender</label>
+       <input type="checkbox" id="i2" name="n2"> <label>Male</label>
+       <input type="checkbox" id="i3" name="n2"> <label>Female</label><br>
+       <label for="i4" name="n3">Your Hobbies</label>
+       <input type="checkbox" id="i4" name="n3"> <label>Surfing</label>
+       <input type="checkbox" id="i5" name="n3"> <label>Swimming</label><br>
+       <label for="i6">D.O.B</label>
+       <input type="date"     id="i6" name="n4" min="2024-00-00" max="2024-00-00"> <br>
+       <label for="i7">Enter Your Phone NO:</label>
+       <input type="tel"      id="i7" name="n5" pattern="[0-9]{5} - [0-9]{5}" maxlength="10">     
+       <label>Email</label>
+       <input type="email"><br>
+       <label>Quantity</label>
+       <input type="number" min="10" max="40" step="5"><br>
+       <label>Range</label>
+       <input type="range" min="10" max="40" step="5"><br>
+       <input type="image" src="color.jpg"><br>
+       <label>Upload file</label>
+       <input type="file" multiple><br>
+       <label>Dropdown</label>
+       <select>
+        <option>Home</option>
+        <option>About</option>
+        <option>COntact</option>
+        <option>Profile</option>
+       </select>
+       <br>
+       <label>enter password</label>
+       <input type="password">
+       <br>
+       <label>Search</label>
+       <input type="search">
+       <textarea rows="5" cols="20">Describe yourself</textarea>
+       <br>
+
+
+       
+       <button>click</button> <input type="submit"   value="submit"> 
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

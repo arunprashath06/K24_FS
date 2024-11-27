@@ -1,0 +1,15 @@
+<ul></ul> (unordered list)
+here the list comes in dotted ones
+<li></li> 
+and 
+<ol></ol>(ordered list)
+here the list comes in number ones
+<li></li>
+in <ol start="45"></ol>(it starts from 45)
+in <ol type="A"></ol>(it starts from A,B,C){if you put type="a" then it starts from a,b,c}
+
+[<dt>HTML</dt>(it will be like heading in left corner)
+<dd>it is hyper text markup language</dd>(it starts after some space for the heading)]
+<a href="https://www.youtube.com/watch?v=_ayby0owDWg">learn</a>(now the word learn shows in blue colour and if i click it it opens to the link we have given at href){if we put # then it goes to homepage}
+
+

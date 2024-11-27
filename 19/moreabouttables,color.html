@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{display: grid;
+        grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1cm 1cm 1cm;
+    /*column gap: 10px;
+    row-gap:10px 10px; */
+    gap: 2px 2px;
+    border:rebeccapurple dashed 2px;
+    padding: 2px;
+    background-color:yellow;
+        }
+        
+        .main div{border: 2px solid brown;
+        background-color: aqua;
+    text-align: center;
+align-content: center;}
+.d1{
+    /*grid-column-start: 1;
+    grid-column-end: 4;*/
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+    
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        <div class="d7">7</div>
+
+    </div>
+    
+</body>
+</html>

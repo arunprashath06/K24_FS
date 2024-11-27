@@ -1,0 +1,291 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #4d4d4d;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+nav a:hover {
+    color: #ffe1dc;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff4b2b;  /* Orange underline */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav a:hover:after {
+    transform: scaleX(1);
+}
+
+/* Main Content Section */
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.content-box:hover h2, .content-box:hover h3 {
+    color: #ff4b2b;  /* Change color of headings on hover */
+}
+
+h2, h3 {
+    color: #4d4d4d;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Buttons */
+button {
+    background-color: #4d4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c6c6c;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    border-color: #4d4d4d;
+    outline: none;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff4b2b;
+}
+
+/* Links */
+a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4b2b;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Login and Register Pages */
+.login-container, .register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Style for login prompt */
+.login-prompt {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.login-prompt p {
+    font-size: 1.2em;
+}
+
+.login-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.login-link:hover {
+    background-color: gray;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* Marquee Styles */
+.marquee-container {
+    width: 100%;
+    background-color: #f4f4f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.marquee-container marquee {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Marquee Text Speed */
+marquee {
+    font-size: 20px;
+    color: #4d4d4d;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    direction: left;
+    behavior: scroll;
+    scrollamount: 10;
+}
+
+/* Fact Box Section (Updated) */
+.fact-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.fact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding-left: 20px;  /* Add left padding for spacing */
+}
+
+.fact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.fact p {
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.fact strong {
+    color: #ff4b2b; /* Highlight fact text in orange */
+    font-size: 1.4rem;
+}
